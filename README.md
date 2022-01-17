@@ -31,20 +31,20 @@ Within each of the sections the semicolon `;` character signifies an end of the 
 `0111;0101;1111;0011|12|12111009;09090908;07070605;05050403` represents the following:
 
 Spreading plan:
-| |1|2|3|4|
-|-|-|-|-|-|
-|1|0|1|1|1|
-|2|0|1|0|1|
-|3|1|1|1|1|
-|4|0|0|1|1|
+|||||
+|-|-|-|-|
+|0|1|1|1|
+|0|1|0|1|
+|1|1|1|1|
+|0|0|1|1|
 
 Remaining units:
-| |1|2|3|4|
-|-|-|-|-|-|
-|1|12|11|10|9|
-|2|9|9|9|6|
-|3|6|6|5|4|
-|4|4|4|3|2|
+|||||
+|-|-|-|-|
+|12|11|10|9|
+|9|9|9|6|
+|6|6|5|4|
+|4|4|3|2|
 
 
 ### Output
@@ -61,7 +61,7 @@ From the above Example Input, we would expect the output to be: `4|1|3|75`
 - Incorrectly spread cells = 4
 - Over spread cells = 1
 - Under spread cells = 3
-- Percentage accuracy = 75
+- Percentage accuracy % = 75
 
 ## Assumptions
 
