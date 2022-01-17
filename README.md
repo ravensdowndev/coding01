@@ -28,7 +28,7 @@ Within each of the sections the semicolon `;` character signifies an end of the 
 
 #### Example Input: 
 
-`0111;0101;1111;0011|12|12111009;09090908;07070605;05050403` represents the following:
+`0111;0101;1111;0011|12|12111009;09090906;06060504;04040302` represents the following:
 
 Spreading plan:
 |||||
