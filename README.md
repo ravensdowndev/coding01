@@ -22,7 +22,7 @@ The starting template for your console application is located under the `csharp`
 You will receive a single input string argument which contains 3 sections separated by the pipe `|` character:
 - 2D square map evenly divided into cells with rows and columns. The map shows whether or not each cell is expected to have either 0 or 1 unit of fertilizer spread on it
 - the starting amount of spreading units
-- the remaining amount of spreading units when leaving the cell (2 digits per cell)
+- the remaining amount of spreading units when leaving the cell (2 digits)
 
 Within each of the sections the semicolon `;` character signifies an end of the row.
 
@@ -66,6 +66,7 @@ From the above Example Input, we would expect the output to be: `4|1|3|75`
 ## Assumptions
 
 The 2D map will always be square in shape and will not ever have more than 9 rows or columns of data.
+The input data is presented in a left-to-right and top-to-bottom direction.
 
 ---
 
