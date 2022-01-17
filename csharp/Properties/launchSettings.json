@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SpreadyMcSpreader": {
+      "commandName": "Project",
+      "commandLineArgs": "0111;0101;1111;0011|12|12111009;09090906;06060504;04040302"
+    }
+  }
+}
