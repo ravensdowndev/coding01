@@ -4,9 +4,9 @@
 
 Both fertilizer and the environment are very precious and it is wise to keep these in harmony.
 
-Your goal is to calculate how effective some fertilizer spreading has been according to what was originally planned versus what was actually spread.
+Your goal is to calculate how effective some fertilizer spreading has been according to what was originally planned in a map by the farmer versus what was actually applied by the spreader.
 
-The results of this can then be used for future improvements in managing the environment and precise use of fertilizer.
+The results of this can then be used to monitor and highlight future spreading precision improvements.
 
 ---
 
@@ -20,9 +20,9 @@ The starting template for your console application is located under the `csharp`
 ### Input
 
 You will receive a single input string argument which contains 3 sections separated by the pipe `|` character:
-- 2D square map evenly divided into cells with rows and columns. The map shows whether or not each cell is expected to have either 0 or 1 unit of fertilizer spread on it
-- the starting amount of spreading units
-- the remaining amount of spreading units when leaving the cell (2 digits)
+- 2D square map evenly divided into cells with rows and columns. The map shows the farmers plan and whether or not each cell is expected to have either 0 or 1 units of fertilizer spread on it
+- the starting amount of fertilizer units the spreader has
+- the remaining amount of fertilizer units the spreader has when leaving the cell (2 digits)
 
 Within each of the sections the semicolon `;` character signifies an end of the row.
 
@@ -30,7 +30,7 @@ Within each of the sections the semicolon `;` character signifies an end of the 
 
 `0111;0101;1111;0011|12|12111009;09090906;06060504;04040302` represents the following:
 
-Spreading plan:
+Planned spreading map:
 |||||
 |-|-|-|-|
 |0|1|1|1|
@@ -38,7 +38,7 @@ Spreading plan:
 |1|1|1|1|
 |0|0|1|1|
 
-Remaining units:
+Remaining fertilizer units:
 |||||
 |-|-|-|-|
 |12|11|10|9|
