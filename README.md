@@ -4,9 +4,9 @@
 
 Both fertilizer and the environment are very precious and it is wise to keep these in harmony.
 
-Your goal is to calculate how effective some fertilizer spreading has been according to what was originally planned in a map by the farmer versus what was actually applied by the spreader.
+Your goal is to calculate how effective some fertilizer spreading has been according to what was originally planned in a map by the farmer versus what was actually applied by the fancy spreading robot.
 
-The results of this can then be used to monitor and highlight future spreading precision improvements.
+The results of this can then be used to monitor and highlight future spreading precision improvements to the robot.
 
 ---
 
@@ -21,8 +21,8 @@ The starting template for your console application is located under the `csharp`
 
 You will receive a single input string argument which contains 3 sections separated by the pipe `|` character:
 - 2D square map evenly divided into cells with rows and columns. The map shows the farmers plan and whether or not each cell is expected to have either 0 or 1 units of fertilizer spread on it
-- the starting amount of fertilizer units the spreader has
-- the remaining amount of fertilizer units the spreader has when leaving the cell (2 digits)
+- the starting amount of fertilizer units the spreading robot has
+- the remaining amount of fertilizer units the spreading robot has when leaving the cell (2 digits)
 
 Within each of the sections the semicolon `;` character signifies an end of the row.
 
@@ -38,7 +38,7 @@ Planned spreading map:
 |1|1|1|1|
 |0|0|1|1|
 
-Remaining fertilizer units:
+Remaining fertilizer units on spreading robot:
 |||||
 |-|-|-|-|
 |12|11|10|9|
