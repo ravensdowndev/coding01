@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Ninject;
+using SpreadyMcSpreader.Abstractions;
+using System.Reflection;
 
 namespace SpreadyMcSpreader
 {
@@ -6,7 +8,14 @@ namespace SpreadyMcSpreader
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(args[0]);
+            if (args.Length > 0)
+            {
+                var kernel = new StandardKernel();
+                kernel.Load(Assembly.GetExecutingAssembly());
+
+                var mcSpreaderCalculator = kernel.Get<IMcSpreaderCalculator>();
+                mcSpreaderCalculator.CalculateAndDisplay(args[0]);
+            }
         }
     }
 }
