@@ -72,5 +72,5 @@ The input data is presented in a left-to-right and top-to-bottom direction.
 
 ## Submissions
 
-You will submit your solution as a Pull Request to this repository and then request a review on it by all repository collaborators.
+You will submit your solution as a Pull Request to this repository and then request a review on it.
 
