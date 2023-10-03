@@ -50,10 +50,10 @@ Remaining fertilizer units on spreading robot:
 ### Output
 
 You are expected to use the input data to calculate and return the following results in a single string separated with the pipe `|` character:
-- total count of incorrectly spread cells (either not spread, or over spread)
+- total count of incorrectly spread cells (either over spread or under spread)
 - total count of over spread cells
 - total count of under spread cells
-- percentage accuracy of the cells spread correctly (rounded up to the nearest whole number)
+- percentage of the cells spread correctly (rounded up to the nearest whole number)
 
 ### Example Output:
 From the above Example Input, we would expect the output to be: `4|1|3|75`
